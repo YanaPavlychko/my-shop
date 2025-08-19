@@ -8,6 +8,9 @@
       <router-link to="/admin/reviews" active-class="active-link">
         Відгуки</router-link
       >
+      <router-link to="/login">
+        Особистий кабінет
+      </router-link>
     </nav>
 
     <!-- Контент адміністративної панелі -->
