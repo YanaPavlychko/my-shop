@@ -64,8 +64,8 @@ export default {
 };
 </script>
 
-  <!-- Приклад д/з -->
-  <style>
+  
+  <style scoped>
 .admin-container {
   max-width: 400px;
   margin: 50px auto;
