@@ -8,10 +8,10 @@ import ProfilePage from './pages/ProfilePage.vue';
 const routes = [
     {
         path: '/',
-        component: AdminDashboard, // Використовуємо AdminDashboard як головний компонент
+        component: AdminDashboard,
         children: [
-            { path: '', component: ManageProducts }, // Домашня сторінка рендерить ManageProducts
-            { path: 'reviews', component: ManageReviews }, // Відгуки
+            { path: '', component: ManageProducts },
+            { path: 'reviews', component: ManageReviews },
         ],
     },
     {
@@ -28,9 +28,8 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory('/my-shop/'), // Вказуємо базовий шлях для GitHub Pages
+    history: createWebHistory('/my-shop/'),
     routes,
 });
 
-export default router;
-
+export default router; 
